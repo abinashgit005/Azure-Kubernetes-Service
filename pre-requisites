@@ -1,2 +1,4 @@
-az cli 
-az aks 
+### login
+az login --tenant <tenant id>
+### Install aks cli
+az aks install-cli
