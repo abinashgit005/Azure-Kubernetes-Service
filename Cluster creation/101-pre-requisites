@@ -1,3 +1,4 @@
+for this lab you must have az Azure subscription with you and az cli installed in your system.
 ## login
 az login --tenant <tenant id>
 ## Install aks cli
