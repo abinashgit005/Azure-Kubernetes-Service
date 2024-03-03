@@ -1,10 +1,10 @@
 ## create a Resource group
-az group create --name abi_resource_group --location eastus
+az group create --name 101_resource_group --location eastus
 
 ## create a AKS Cluster (we can use the resource group created earlier in above step)
 az aks create \
-  --resource-group abi_resource_group \
-  --name abi-cluster \
+  --resource-group 101_resource_group \
+  --name 101-cluster \
   --enable-managed-identity \
   --node-count 1 \
   --generate--ssh-keys
